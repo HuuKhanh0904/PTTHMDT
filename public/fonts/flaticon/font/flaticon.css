@@ -1,13 +1,12 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 18/09/2019 11:53
+  	Creation date: 13/08/2018 10:00
   	*/
 
 @font-face {
   font-family: "Flaticon";
   src: url("./Flaticon.eot");
   src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
-       url("./Flaticon.woff2") format("woff2"),
        url("./Flaticon.woff") format("woff"),
        url("./Flaticon.ttf") format("truetype"),
        url("./Flaticon.svg#Flaticon") format("svg");
@@ -25,22 +24,17 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  line-height: 1;
-  text-decoration: inherit;
-  text-rendering: optimizeLegibility;
-  text-transform: none;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-  font-smoothing: antialiased;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
 }
 
-.flaticon-yacht:before { content: "\f100"; }
-.flaticon-captain:before { content: "\f101"; }
-.flaticon-shield:before { content: "\f102"; }
-.flaticon-devices:before { content: "\f103"; }
-.flaticon-boat:before { content: "\f104"; }
-.flaticon-badge:before { content: "\f105"; }
-.flaticon-captain-1:before { content: "\f106"; }
+.flaticon-guarantee:before { content: "\f100"; }
+.flaticon-support:before { content: "\f101"; }
+.flaticon-like:before { content: "\f102"; }
+.flaticon-detective:before { content: "\f103"; }
+.flaticon-hotel:before { content: "\f104"; }
+.flaticon-fork:before { content: "\f105"; }
+.flaticon-coffee-cup:before { content: "\f106"; }
+.flaticon-meeting-point:before { content: "\f107"; }
+.flaticon-shopping-bag:before { content: "\f108"; }
