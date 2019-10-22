@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
     @include('admin.admins.header')
@@ -12,12 +11,12 @@
     
     @include('admin.admins.featured_destination')
 
-    {{-- @include('admin.admins.top_tour')
+    @include('admin.admins.top_tour')
 
-    @include('admin.admins.fun_fact') --}}
+    @include('admin.admins.fun_fact')
 
     @yield('content')
-    {{-- @include('admin.admins.popular')
+    @include('admin.admins.popular')
 
     @include('admin.admins.question_for_us')
 
@@ -25,7 +24,7 @@
 
     @include('admin.admins.tip_and_articles')
 		
-    @include('admin.admins.subrice_to_our') --}}
+    @include('admin.admins.subrice_to_our')
 
     @include('admin.admins.footer')
     
