@@ -21,10 +21,13 @@ class CreateUsersTable extends Migration
                 $table->string('email')->unique();
                 $table->timestamp('email_verified_at')->nullable();
                 $table->string('password');
-                $table->string('tel')->comment('số điện thoại');
-                $table->string('address')->comment('địa chỉ');
-                $table->string('active')->comment('trạng thái tài khoản');
+                $table->string('gender');
+                $table->string('tel');
+                $table->date('birth');
+                $table->string('active');
+                $table->string('address');
                 $table->rememberToken();
+               
                 // log time
                 $table->timestamp('created_at')
                     ->default(DB::raw('CURRENT_TIMESTAMP'))
@@ -50,6 +53,6 @@ class CreateUsersTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        // Schema::dropIfExists('users');
     }
 }
