@@ -27,7 +27,7 @@ class CreateUsersTable extends Migration
                 $table->string('active');
                 $table->string('address');
                 $table->rememberToken();
-                
+               
                 // log time
                 $table->timestamp('created_at')
                     ->default(DB::raw('CURRENT_TIMESTAMP'))
